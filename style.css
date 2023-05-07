@@ -321,19 +321,23 @@
   padding-top: 3rem;
 }
 
-.section__banner .banner__form  i{
+.section__banner .banner__form  .arrow-svg{
     font-size: 2.3rem;
     transform: translateY(-50%);
     position: absolute;
     right: 15px;
-    bottom: .9rem;
+    bottom: -.5rem;
     z-index: 1;
     width: 28px;
     z-index: 100;
     transition: all .3s;
 }
 
-.section__banner .banner__form  i:hover{
+.section__banner .contents .banner__form:hover form + .arrow-svg{
+  fill: #4C5FD5 !important;
+}
+
+.section__banner .banner__form  img:hover{
   color: #4C5FD5;
 }
 
@@ -341,8 +345,10 @@
   border: 1px solid #000000;
 }
 
+.section__banner .banner__form #search:focus,
 .section__banner .banner__form #search:hover{
-  border: 1px solid #4C5FD5;
+  border: 1px solid #4C5FD5 !important;
+  outline: none;
 }
 
 ::placeholder{
