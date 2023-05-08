@@ -117,7 +117,7 @@
 
   /*------------CONTAINER/GRID-------------*/
 .container{
-  max-width: 120rem;
+  max-width: 170rem;
   margin: 0 auto;
   padding: 1.5rem;
 }
@@ -307,9 +307,10 @@
 }
 
 .section__banner .banner__form input{
-  width: 70rem;
+  width: 72rem;
+  height: 6.5rem;
   font-size: 2rem;
-  padding: 2rem;
+  padding: 1.5rem;
   box-sizing: border-box;
   border-color: 1px solid #4C5FD5;
   border-radius: 5px;
@@ -318,7 +319,7 @@
 
 .section__banner .banner__form{
   position: relative;
-  padding-top: 3rem;
+  padding-top: 2.3rem;
 }
 
 .section__banner .banner__form  .arrow-svg{
@@ -363,10 +364,9 @@
 .section__banner .float-btn{
   position: fixed;
   float: right;
- margin-left: 114rem;
-margin-top: 9rem;
+  right: 2rem;
+  bottom: 1.5rem;
 }
-
 
 @media screen and (max-width:500px) {
   .section__banner .banner__text h2{
@@ -390,8 +390,8 @@ margin-top: 9rem;
 .section__banner .float-btn{
   position: fixed;
   float: right;
- margin-left: 35rem;
-margin-top: 13rem;
+  right: 2rem;
+  bottom: 2rem;
 }
 
 }
@@ -402,7 +402,7 @@ margin-top: 13rem;
 .section__banner-items  .items__contents{
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 4rem;
+  grid-gap: 2rem;
   margin: 13rem 6rem;
 }
 
@@ -481,7 +481,7 @@ footer .footer__contents{
 }
 
 footer .footer__items{
-  width: 15%;
+  width: 18%;
 }
 
 footer .footer__items a{
