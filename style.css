@@ -379,9 +379,11 @@
   }
 
   .section__banner .banner__form input{
-    width: 45rem;
-  }
 
+    /* hindi nagcecenter yung form */
+    max-width: 45rem;
+  }
+ 
   
 .section__banner .banner__form{
   padding-top: 4rem;
@@ -402,8 +404,8 @@
 .section__banner-items  .items__contents{
   display: grid;
   grid-template-columns: auto auto;
-  grid-gap: 2rem;
-  margin: 13rem 6rem;
+  grid-gap: 3rem;
+  margin: 13rem 6rem 4rem 6rem;
 }
 
 .section__banner-items .items__contents .items{
@@ -429,7 +431,7 @@
 }
 
 .section__banner-items .items  .item-text p{
-  font-size: 2rem;
+  font-size: 2.4rem;
   margin-bottom: 1.5rem;
 }
 
@@ -582,7 +584,7 @@ footer .footer__items:last-child{
     background: #4C5FD5;
     color: #ffffff;
     border: 1px solid #4C5FD5;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     padding: .8rem 3.5rem;
   }
   
@@ -605,12 +607,7 @@ footer .footer__items:last-child{
     background: #2b2b2b;
     border: 1px solid #ffffff;
     color: #ffffff;
-    font-size: 2.2rem;
-  }
-
-  .btn.dark:hover{
-    background: #f5f5f5;
-    color: #000000;
+    font-size: 2.4rem;
   }
 
   .centerAll{
